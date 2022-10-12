@@ -1,0 +1,459 @@
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@500&family=Dancing+Script&family=Lato&family=Libre+Baskerville&family=Poppins&family=Roboto:wght@300&family=Signika+Negative&family=Source+Sans+Pro&family=Tapestry&display=swap');
+
+body {
+    margin: 0;
+    font-family: 'Source Sans Pro', sans-serif;
+    padding: 0px;
+    background-color: rgba(237, 170, 170, 0.1)!important;
+}
+
+.header {
+    /* background-color: aqua; */
+    padding: 10px;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    z-index: 1;
+    background-color: white;
+}
+
+.myName {
+    font-size: 18px;
+    font-weight: 700;
+    color: rgb(51, 49, 49);
+    letter-spacing: 0.8px;
+    text-transform: uppercase;
+}
+
+.logName img {
+    height: 50px;
+    margin: 10px;
+    cursor: pointer;
+}
+
+.logName {
+    display: flex;
+    align-items: center;
+
+}
+
+.headerDiv {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0px 20px;
+}
+
+.ullist {
+    display: flex;
+}
+
+.list {
+    list-style: none;
+    margin: 0px 40px;
+}
+
+.list a {
+    text-decoration: none;
+    padding: 5px;
+    color: rgb(51, 49, 49);
+    font-size: 17px;
+    font-weight: 700;
+    letter-spacing: 0.9px;
+    text-transform: uppercase;
+}
+
+.list a:hover,
+.myName:hover {
+    color: rgb(223, 58, 58);
+    cursor: pointer;
+}
+
+
+#Home {
+
+    /* color: #fff; */
+    background: linear-gradient(to right, rgba(237, 170, 170, 0.8), rgba(245, 245, 245, .8)), url(https://d33wubrfki0l68.cloudfront.net/daac8858fd4a0ccea44f59dfd079c3c16c263f33/c157c/assets/svg/common-bg.svg);
+    background-position: center;
+    height: 100vh;
+    /* min-height: 80rem;
+    max-height: 120rem; */
+    position: relative;
+
+}
+
+
+#Projects {
+    background: linear-gradient(to right, rgba(237, 223, 223, 0.8), rgba(245, 245, 245, .8));
+    height: auto;
+    /* position: relative;   */
+    /* background-color: aqua; */
+
+}
+
+
+
+@media only screen and (max-width: 900px) {
+    .list {
+
+        margin: 0px 20px;
+    }
+
+    .colgDeg {
+
+        width: 80vw;
+
+    }
+
+    .colgDetails,
+    .diplomaDetails,
+    .schoolDetails {
+        width: 79vw;
+    }
+
+    .homeConpara {
+        position: relative;
+        width: auto;
+
+
+    }
+
+    .homeCon {
+        width: 70vw;
+
+    }
+
+    .homeheading {
+        font-size: 30px;
+        margin: 10px 0px;
+        position: relative;
+        width: auto;
+
+    }
+
+    .homeheading h1 {
+
+        margin: 10px 0px;
+
+    }
+
+}
+
+@media only screen and (max-width: 800px) {
+    /* .header{
+    background-color: rgb(55, 255, 0);
+    } */
+
+    .myName {
+        font-size: 16px;
+    }
+
+    .list a {
+
+        font-size: 15px;
+    }
+
+    .list {
+
+        margin: 0px 8px;
+    }
+
+    .homeheading {
+        font-size: 25px;
+
+
+    }
+
+    .homeConpara {
+        font-size: 16px;
+
+
+    }
+
+    .projectHeader h1 {
+
+        font-size: 23px;
+
+    }
+}
+
+
+@media only screen and (min-width: 601px) {
+
+    .wrap,
+    .wrapDiv,
+    .wraplist {
+        display: none;
+    }
+
+    /* .header{
+        color: aqua;
+    } */
+
+
+}
+
+@media only screen and (max-width: 600px) {
+
+    .NavDiv {
+        display: none;
+    }
+
+    .headerDiv {
+        flex-direction: row-reverse;
+
+    }
+
+    .myName {
+        margin-right: 20px;
+
+    }
+
+    .projectHeader h1 {
+
+        font-size: 23px;
+
+    }
+
+    .projectHeader p {
+
+        text-align: center;
+        width: 80vw;
+        margin: auto;
+    }
+
+    .homeheading {
+        font-size: 23px;
+
+
+    }
+
+    .homeConpara {
+
+        font-size: 15px;
+        /* height: 150px ; */
+
+        margin: 0px 20px;
+
+
+    }
+
+    .logName img {
+        height: 45px;
+
+    }
+
+    .Contactsticky img {
+
+        height: 35px;
+
+    }
+
+    .homebtn button {
+
+
+        width: 150px;
+        height: 45px;
+
+
+    }
+
+    .skillsInfo img {
+        width: 50px;
+        margin-top: 16px;
+        /* border: 2px solid rgb(218, 211, 211); */
+
+    }
+
+    .skills {
+
+        width: 80vw;
+    }
+
+    .conlist img {
+        width: 30px;
+
+
+    }
+
+    .bold {
+        font-size: 16px;
+
+    }
+
+    .colgDetails,
+    .diplomaDetails,
+    .schoolDetails {
+        font-size: 14px;
+    }
+
+    .skillsInfo div {
+        font-size: 14px;
+    }
+}
+
+
+
+@media only screen and (max-width: 500px) {
+
+    .NavDiv {
+        display: none;
+    }
+
+    .homeheading {
+        font-size: 21px;
+        text-align: center;
+
+
+    }
+
+    .homeConpara {
+        font-size: 13px;
+
+
+    }
+
+    .logName img {
+        height: 40px;
+
+    }
+
+    .Contactsticky img {
+
+        height: 30px;
+        margin: 4px;
+
+    }
+
+    .homebtn button {
+        font-size: 14px;
+        width: 120px;
+        height: 40px;
+
+
+    }
+}
+
+@media only screen and (max-width: 400px) {
+
+
+    .proj1 button {
+        width: 125px;
+        margin: 3px;
+        height: 35px;
+        font-size: 13px;
+    }
+
+    .projImg img {
+        width: 250px;
+        margin: 2px 5px;
+        border: 5px solid rgb(234, 222, 222);
+    }
+
+    .proj1 {
+
+        width: 280px;
+        height: 300px;
+        margin: 10px;
+
+    }
+
+
+
+    .projheading h2 {
+        font-size: 18px;
+
+    }
+
+    .projectHeader p {
+        font-size: 13px;
+
+    }
+
+    h1 {
+        font-size: 20px;
+
+    }
+
+    .projContent p {
+        font-size: 14px;
+
+    }
+
+}
+
+
+
+
+
+
+
+
+
+
+#carouselExampleIndicators {
+    padding-top: 75px;
+}
+
+.header {
+    background: white;
+    box-shadow: 5px 10px 18px #888888;
+}
+
+.header-title {
+    text-align: center;
+    margin: 40px 20px;
+    font-weight: 900;
+}
+
+
+/* cards */
+.cards {
+    display: flex;
+    justify-content: space-between;
+    margin: 20px 50px;
+}
+
+/* form */
+.form-container {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+}
+
+.form {
+    width: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+.form>div {
+    margin-bottom: 10px;
+}
+
+.form input,
+.form textarea {
+    width: 100%;
+}
+
+.form .inline-checkbox {
+    width: 20px;
+    transform: translateY(2px);
+}
+
+.btn {
+    margin-bottom: 20px;
+}
+
+.carousel-control-next-icon {
+    margin-top: 100%;
+}
+
+.carousel-control-prev-icon {
+    margin-top: 100%;
+}
